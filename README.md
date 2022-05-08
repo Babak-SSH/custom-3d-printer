@@ -3,13 +3,13 @@
 <img src="https://img.shields.io/static/v1?label=info&message=under%20develop&color=yellow&style=plastic">
 <img src="https://img.shields.io/static/v1?label=&message=v1.0&color=blue&style=plastic">
 
-A custom RepRap FDM 3D printer inspired by Ender 3.
+A custom RepRap FDM 3D printer.
 
 ⚠️ Still under active development: Parts and documentation will change!
 
 ## V1.0
 
-The first version is more like a proof of concept designed and made out of mostly scraped metal over the course of 6 month, however it is fully functional and practical but there is more to enhance and improve.
+The first version is more like a proof of concept designed and made out of mostly scraped metal over the course of 3 month and took 2 month of tweaking and configuring, however it is fully functional and practical but there is more to enhance and improve.
 <p align="center">
     <img width="600" height="500" src="./media/explode_animation.gif">
 </p>
@@ -36,6 +36,8 @@ The first version is more like a proof of concept designed and made out of mostl
 
 - MK3 HeatBed
 
+- 12v and 24v power supply
+
 # Firmware
 
 Printer uses <b>Marlin 2.0x</b> firmware running on a Arduino Mega. The configuration changes have been applied into the configuration.h file and slic3r configs, you can find all configs in the config folder.
@@ -46,7 +48,7 @@ To control the machine and to stream the G-Code, Repetier-Host and slic3r has be
 
 ## Schematic and PCB Layout
 
-- schematic.pdf
+- [schematic](electronics/schematic.pdf)
 ## Building InstructionsBuilding Instructions
 
     will make a build process for enhanced and better version.
