@@ -55,8 +55,7 @@ To control the machine and to stream the G-Code, Repetier-Host and slic3r has be
 
 # Printed Parts
 
-<img>
-<img>
+<img src="media/samples.jpg">
 
 # License
 
